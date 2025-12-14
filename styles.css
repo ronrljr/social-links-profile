@@ -89,6 +89,8 @@
         margin-bottom: 1.5rem;
         cursor: pointer;
         transition: all 300ms ease-in-out;
+        text-decoration: none;
+        text-align: center;
     }
 
     .social__button:hover {
@@ -111,4 +113,5 @@
         .social__main-cont {
             padding: 2.5rem;
         }
+
     }
