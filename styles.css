@@ -99,7 +99,7 @@
     }
 
     .social__button:active {
-        background-color: hsl(75, 73%, 49%);;
+        background-color: hsl(75, 73%, 49%);
     }
 
     @media screen and (max-width: 420px) {
@@ -115,3 +115,4 @@
         }
 
     }
+
