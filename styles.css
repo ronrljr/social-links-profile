@@ -27,7 +27,7 @@
         --grey900: hsl(0, 0%, 8%);
     }
 
-    .social__main-bg {
+    .page-container {
         width: 100%;
         height: 100vh;
         background-color: var(--grey900);
@@ -37,7 +37,7 @@
         padding-bottom: 2rem;
     }
 
-    .social__main-cont {
+    .social {
         width: 37rem;
         background-color: var(--grey800);
         border-radius: 1.5rem;
@@ -49,12 +49,12 @@
         box-sizing: border-box;
     }
 
-    .social__profile-img {
+    .social__img {
         border-radius: 50%;
         width: 9rem;
     }
 
-    .social__profile-name {
+    .social__name {
         color: #fff;
         font-size: 2.5rem;
         font-weight: 500;
@@ -62,13 +62,13 @@
         margin-bottom: 1rem;
     }
 
-    .social__profile-location {
+    .social__location {
         font-size: 1.4rem;
         color: var(--green);
         margin-top: 0;
     }
 
-    .social__profile-description {
+    .social__description {
         font-size: 1.4rem;
         color: #fff;
         opacity: .8;
@@ -99,20 +99,18 @@
     }
 
     .social__button:active {
-        background-color: hsl(75, 73%, 49%);
+        background-color: hsl(75, 73%, 49%);;
     }
 
     @media screen and (max-width: 420px) {
-        .social__main-cont {
+        .social {
             width: 90%;
             padding: 3rem;
         }
     }
 
     @media screen and (max-width: 375px) {
-        .social__main-cont {
+        .social {
             padding: 2.5rem;
         }
-
     }
-
